@@ -1,0 +1,16 @@
+[test1]
+testcase=test1
+testscript=networkLatency_win.py
+category=p0
+enabled=true
+testdata={vmname = VM1}
+hpqctestname=Default latency setting is disabled
+
+[test2]
+testcase=test2
+testscript=networkLatency_win.py
+category=p0
+enabled=true
+testdata={vmname = VM1}
+hpqctestname=UI function Check
+

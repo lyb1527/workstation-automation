@@ -1,0 +1,212 @@
+# Copyright 2016 VMware, Inc.  All rights reserved. -- VMware Confidential
+
+[test1]
+testcase = sharedVM1
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+hpqctestname=Create a shared vm from Shared VMs tab
+
+[test2]
+testcase = sharedVM2
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+hpqctestname=Default unsharing location validation
+
+[test3]
+testcase = sharedVM3
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+hpqctestname=Disable VM Sharing in preferences
+
+[test4]
+testcase = sharedVM4
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+hpqctestname=Shared VM node in the Library
+
+[test5]
+testcase = sharedVM5
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+hpqctestname=Custom unsharing location
+
+[test6]
+testcase = sharedVM6
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+hpqctestname=Modify datastore location if shared VMs are available
+
+[test7]
+testcase = sharedVM7
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+hpqctestname=Modify datastore location if there is no Shared VMs
+
+[test8]
+testcase = sharedVM8
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+hpqctestname=Modify shared VM name while cloning
+
+[test9]
+testcase = sharedVM9
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+hpqctestname=New Shared VMs Location registration
+
+[test10]
+testcase = sharedVM10
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+hpqctestname=Share VM using Clone option
+
+[test11]
+testcase = sharedVM11
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+hpqctestname=Share VM using Move option
+
+[test12]
+testcase = sharedVM12
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+hpqctestname=Shared VM unsharing flow
+
+[test14]
+testcase = sharedVM14
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+hpqctestname=Sharing related context menu items for standard VM functionality
+
+[test15]
+testcase = sharedVM15
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+testdata = {vmname = VM1,  user=jenkins, pwd=ca$hc0w}
+hpqctestname=Sharing related context menu items for standard VM tab funtionality
+
+[test16]
+testcase = sharedVM16
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+testdata = {vmname = VM1,  user=jenkins, pwd=ca$hc0w}
+hpqctestname=Sharing related menu items for standard VM functionality
+
+[test17]
+testcase = sharedVM17
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+testdata = {vmname = VM1,  user=jenkins, pwd=ca$hc0w}
+hpqctestname=Sharing VMs into new datastore
+
+[test18]
+testcase = sharedVM18
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+testdata = {vmname = VM1,  user=jenkins, pwd=ca$hc0w}
+hpqctestname=Sharing VMs with supported HW versions
+
+[test19]
+testcase = sharedVM19
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+testdata = {vmname = VM1,  user=jenkins, pwd=ca$hc0w}
+hpqctestname=Sharing Wizard UI pages flow
+
+[test20]
+testcase = sharedVM20
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+testdata = {vmname = VM1,  user=jenkins, pwd=ca$hc0w}
+hpqctestname=Sharing Wizard UI components
+
+[test21]
+testcase = sharedVM21
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+testdata = {vmname = VM1,  user=jenkins, pwd=ca$hc0w}
+hpqctestname=Standard VM sharing flow
+
+[test22]
+testcase = sharedVM22
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+testdata = {vmname = VM1,  user=jenkins, pwd=ca$hc0w}
+hpqctestname=Unsharing context menu items for VM tab functionality
+
+[test23]
+testcase = sharedVM23
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+testdata = {vmname = VM1,  user=jenkins, pwd=ca$hc0w}
+hpqctestname=Unsharing context menu items functionality
+
+[test24]
+testcase = sharedVM24
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+testdata = {vmname = VM1,  user=jenkins, pwd=ca$hc0w}
+hpqctestname=Unsharing menu items functionality
+
+[test25]
+testcase = sharedVM25
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+testdata = {vmname = VM1, sharedVMLocation = C:\Users\Public\Documents\Shared Virtual Machines\,user=jenkins, pwd=ca$hc0w}
+hpqctestname=Unsharing Wizard pages flow
+
+[test26]
+testcase = sharedVM26
+testscript = sharedvm_win.py
+category=p0
+enabled = true
+recovery = General
+testdata = {vmname = VM1, host=10.117.161.188, user=jenkins, pwd=ca$hc0w}
+hpqctestname=Shared VMs access from another WS instance on the same host

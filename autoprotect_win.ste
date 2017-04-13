@@ -1,0 +1,92 @@
+[test1]
+testcase=test1
+testscript=autoprotect_win.py
+category=p0
+enabled=true
+hpqctestname=Enable AutoProtect and verify the state of components on the AutoProtect setting page
+
+[test2]
+testcase=test2
+testscript=autoprotect_win.py
+category=p0
+enabled=true
+hpqctestname=Open AutoProtect setting page from Snapshot Manager
+
+[test3]
+testcase=test3
+testscript=autoprotect_win.py
+category=p0
+enabled=true
+testdata={vmname = VM1}
+hpqctestname=Show AutoProtect checkbox ...verify  in snapshot graph
+
+[test4]
+testcase=test4
+testscript=autoprotect_win.py
+category=p0
+enabled=true
+testdata = {vmname = VM1}
+hpqctestname=Delete single AutoProtect Snapshot
+
+[test5]
+testcase=test5
+testscript=autoprotect_win.py
+category=p0
+enabled=true
+testdata = {vmname = VM1}
+hpqctestname=Revert to previous AutoProtect snapshot
+
+[test6]
+testcase=test6
+testscript=autoprotect_win.py
+category=p0
+enabled=true
+testdata = {vmname = VM1}
+hpqctestname=Verify AutoProtect selector and setting ... Options tab
+
+[test7]
+testcase=test7
+testscript=autoprotect_win.py
+category=p0
+enabled=true
+hpqctestname=Verify default state of Enable AutoProtect checkbox
+
+[test8]
+testcase=test8
+testscript=autoprotect_win.py
+category=p0
+enabled=true
+testdata = {vmname = VM1}
+hpqctestname=Verify Keep functionality for single AutoProtect Snapshot
+
+[test9]
+testcase=test9
+testscript=autoprotect_win.py
+category=p0
+enabled=true
+testdata = {vmname = VM1}
+hpqctestname=Verify AutoProtect will keep...when AutoProtect interval = Hourly
+
+[test10]
+testcase=test10
+testscript=autoprotect_win.py
+category=p0
+enabled=true
+testdata = {vmname = VM1}
+hpqctestname=Verify AutoProtect will ... interval = Half Hourly
+
+[test11]
+testcase=test11
+testscript=autoprotect_win.py
+category=p0
+enabled=true
+testdata = {vmname = VM1}
+hpqctestname=Verify the context menu for single AutoProtect snapshot selection
+
+[test12]
+testcase=test12
+testscript=autoprotect_win.py
+category=p0
+enabled=true
+testdata = {vmname = VM1}
+hpqctestname=Verify the state of Show AutoProtect Snapshots checkbox

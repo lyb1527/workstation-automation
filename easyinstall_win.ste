@@ -1,0 +1,16 @@
+[test1]
+testcase = test1
+testscript = easyinstall_win.py
+category = P0
+testdata = {isopath=\OS\Other\Windows\Windows10\AnniversaryUpdate\en_windows_10_enterprise_version_1607_updated_jul_2016_x64_dvd_9054264.iso}
+enabled = True ;True / False
+hpqctestname = Verify Easy Install could detect supported OS in ISO image
+
+
+[test2]
+testcase = test2
+testscript = easyinstall_win.py
+category = P0
+testdata = {isopath = \OS\Other\Windows\Windows10\AnniversaryUpdate\en_windows_10_enterprise_version_1607_updated_jul_2016_x64_dvd_9054264.iso, username = easyInstallTest, password = vmware123, confirmpassword = vmware123}
+enabled = True ;True / False
+hpqctestname = Verify that guest OS and vmware tools can be installed automatically without user intervention

@@ -1,0 +1,16 @@
+[test1]
+testcase = test1
+testscript = MultiSnapshots.py
+category = P0
+enabled = true ;true / false
+recovery = test1
+hpqctestname=MultiSnapshotUI
+
+[test2]
+testcase = test2
+testscript = multiSnapshots_win.py
+category = P0
+enabled = true ;true / false
+recovery = test2
+testdata = {vmname = VM1}
+hpqctestname=MultiSnapshotUI.Menu-Functionality

@@ -1,0 +1,6 @@
+[test1]
+testcase=test1
+testscript=supportcontactinformation_win.py
+category=p0
+enabled=true
+hpqctestname=The configured URL can be displayed in Get_Support menu for Workstation

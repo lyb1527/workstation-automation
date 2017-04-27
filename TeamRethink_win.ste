@@ -1,0 +1,206 @@
+[test1]
+testcase=test1
+testscript=TeamRethink_win.py
+category=p0
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=Open NAAS (Network Adapter Advanced Settings) dialog using button click
+
+[test2]
+testcase=test2
+testscript=TeamRethink_win.py
+category=p0
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=NAAS dialog UI
+
+[test3]
+testcase=test3
+testscript=TeamRethink_win.py
+category=p1
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=In-Bandwidth drop down list open options
+
+[test4]
+testcase=test4
+testscript=TeamRethink_win.py
+category=p1
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=Out-Bandwidth drop down list open options
+
+[test5]
+testcase=test5
+testscript=TeamRethink_win.py
+category=p1
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=NAAS dialog default inout-bandwidth and Kbps values
+
+[test6]
+testcase=test6
+testscript=TeamRethink_win.py
+category=p0
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=Mac Address contros functionality
+
+[test7]
+testcase=test7
+testscript=TeamRethink_win.py
+category=p0
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=Power On Delay control implementation
+
+[test8]
+testcase=test8
+testscript=TeamRethink_win.py
+category=p1
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=NAAS dialog close options
+
+[test9]
+testcase=test9
+testscript=TeamRethink_win.py
+category=p1
+enabled=true;
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=In-Kbps
+
+
+[test10]
+testcase=test10
+testscript=TeamRethink_win.py
+category=p1
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=In-PacketLoss
+
+[test11]
+testcase=test11
+testscript=TeamRethink_win.py
+category=p1
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=Out-Kbps
+
+[test12]
+testcase=test12
+testscript=TeamRethink_win.py
+category=p1
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=Out-PacketLoss
+
+[test13]
+testcase=test13
+testscript=TeamRethink_win.py
+category=p1
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=PacketLoss and Bandwidth modification in VM Settings
+
+[test14]
+testcase=test14
+testscript=TeamRethink_win.py
+category=p1
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=inOut-PacketLoss key-value pairs in vmx files
+
+[test15]
+testcase=test15
+testscript=TeamRethink_win.py
+category=p1
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=inOut-Kbps key-value pairs in vmx files
+
+[test16]
+testcase=test16
+testscript=TeamRethink_win.py
+category=p2
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=NAAS dialog help
+
+[test18]
+testcase=test18
+testscript=TeamRethink_win.py
+category=p0
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=Button Advanced in the VM Settings Network Adapter panel
+
+[test19]
+testcase=test19
+testscript=TeamRethink_win.py
+category=p0
+enabled=true
+recovery=TeamRethinkRecovery
+hpqctestname=In-Bandwidth drop down selected values
+
+[test20]
+testcase=test20
+testscript=TeamRethink_win.py
+category=p0
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=In-Kbps spin box mouse click value selection
+
+[test21]
+testcase=test21
+testscript=TeamRethink_win.py
+category=p0
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=In-PacketLoss valid values
+
+[test22]
+testcase=test22
+testscript=TeamRethink_win.py
+category=p0
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=Out-Bandwidth drop down selected values
+
+[test23]
+testcase=test23
+testscript=TeamRethink_win.py
+category=p0
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=Out-Kbps spin box valid values
+
+[test24]
+testcase=test24
+testscript=TeamRethink_win.py
+category=p0
+enabled=true
+recovery=TeamRethinkRecovery
+testdata={vmname = VM1}
+hpqctestname=Out-PacketLoss valid values
